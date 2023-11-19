@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #f0f4ff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="1440" height="437"%3E%3Cpath fill="%23D6E1FF" fill-rule="evenodd" d="M0 349.974c218.558 116.035 460.05 116.035 724.475 0s502.933-116.035 715.525 0V0H0v349.974z"/%3E%3C/svg%3E');
+    background-repeat: no-repeat;
+    background-size: fill;
+    display: flex;
+    flex: 1;
+}
+/* Card */
+.card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    margin: auto;
+    margin-top: 100px;
+    width: 375px;
+    padding: 1.5em;
+    position: relative;
+    top: 50%;
+
+}
+/* Hero */
+.hero-image {
+    height: 200px;
+    width: auto;  
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.hero-image img {
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+
+/* Summary */
+.summary{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding-top: 10px;
+}
+h2 {
+    margin-bottom: 10px;
+}
+
+p.description {
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Plan */
+.plan {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #f7f6fe;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.plan-img {
+    padding-right: 10px;
+}
+
+.plan-info {
+    flex-grow: 1;
+}
+
+.change {
+    margin-left: auto;
+}
+
+
+p {
+    background-color: transparent;
+    font-size: 12px;
+}
+/* Button */
+.button {
+    background-color: #3829e0; 
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 328px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Cancel */
+.cancel {
+    background-color: #fff;
+    text-align: center;
+    color: #2b2b2b;
+    font-size: 14px;
+    text-decoration: underline;
+    font-weight: 600;
+}
+/* Footer */
+/* .footer { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.footer a { 
+    color: hsl(228, 45%, 44%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+*/
